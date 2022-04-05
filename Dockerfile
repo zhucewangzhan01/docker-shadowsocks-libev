@@ -63,7 +63,7 @@ RUN set -ex \
 COPY --from=golang /go/src/github.com/teddysun/v2ray-plugin/v2ray-plugin /usr/local/bin
 
 # Shadowsocks environment variables
-ENV SERVER_PORT 80
+ENV SERVER_PORT 443
 ENV PASSWORD 123456
 ENV METHOD chacha20-ietf-poly1305
 ENV TIMEOUT 86400
